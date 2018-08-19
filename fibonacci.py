@@ -57,3 +57,8 @@ def fibonacci(n):
 
 for n in range(1, 501):
     print(n , " : ", fibonacci(n))
+
+# Colden Amelioration
+
+for n in range(1, 101):
+    print("Golden ratio: ", fibonacci(n + 1) / fibonacci(n))
